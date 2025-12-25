@@ -69,8 +69,12 @@ body {
   content: '';
   position: absolute;
   bottom: 0;
+
   width: 37px;
   height: 4px;
   border-radius: 8px;
   background-color: var(--color-sky-blue);
+
+  left: 50%; /* FIX: центруємо underline по горизонталі */
+  transform: translateX(-50%); /* FIX: точне вирівнювання по центру */
 }
